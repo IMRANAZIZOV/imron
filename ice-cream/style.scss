@@ -1,7 +1,10 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: #F2CEDA;
 
+}
+
+.header, .feel, .brown{
+    background: #F8EDF0;
 }
 
 .container {
@@ -101,6 +104,7 @@ body {
     &__wrap {
         display: flex;
         align-items: center;
+        gap: 100px;
 
         @media (max-width: 700px) {
            flex-direction: column;
@@ -129,7 +133,7 @@ body {
 
     &__title {
         color: #0F0101;
-
+padding: 20px;
         font-size: 57.33px;
         font-style: normal;
         font-weight: 600;
@@ -159,8 +163,7 @@ body {
         font-weight: 400;
         line-height: 27px;
         /* 150% */
-        padding-top: 35px;
-        padding-bottom: 50px;
+
         max-width: 530px;
         @media (max-width: 700px) {
            margin: 0 auto;
@@ -175,7 +178,7 @@ body {
     // .feel__img
 
     &__img {
-        max-width: 450px;
+        max-width: 300px;
         width: 100%;
     }
 }
@@ -244,8 +247,6 @@ line-height: 110.5%; /* 48.841px */
 }
 .brown__text {
 color: gray;
-margin-top: 25px;
-
 }
 .brown__btn {
     color: #FAFAFA;
@@ -262,6 +263,240 @@ margin-top: 25px;
 
 .brown__info{
     width: 555px;
-    margin-top: -50px;
+    margin-top: 50px;
     
+}
+
+
+.our {
+background-color: white;
+}
+.container {
+
+}
+.our__title {
+    color: #150101;
+    text-align: center;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 25px;
+    
+}
+.our__wraper {
+display: flex;
+justify-content: space-between;
+margin: 100px;
+}
+.our__text {
+
+}
+.brown__logo {
+  
+}
+.brown__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.brown__text {
+    color: #000;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.brown__desc{
+    font-size: 16px;
+    padding: 30px 0;
+}
+
+.gg{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.brown__box-box {
+    
+}
+.brown__wrap{
+    
+}
+.brown__box {
+    display: flex;
+    gap: 15px;
+}
+.feel__icon {
+    width: 30px;
+height: 30px;
+}
+.feel__imran {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.feel {
+    
+}
+.have {
+}
+.container {
+}
+.have__wrap {
+    color: #000;
+text-align: center;
+
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 100px 0;
+}
+.have__title {
+}
+.ss {
+}
+.have__box {
+}
+
+.have_twise{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.have_twise input {
+    width: 637px;
+    height: 74px;
+    border-radius: 5px;
+background: #FAFAFA;
+outline: none;
+padding-left: 20px;
+}
+
+.have_twise button{
+    width: 134px;
+    height: 74px;
+}
+
+.home__wrap {
+    display: flex;
+    
+}
+.home__wrap {
+}
+.home__logo {
+}
+.abdu {
+    color: #FFF;
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.abdu__title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.abdu__text {
+}
+.home {
+    background: #0A0808;
+    
+}
+.home__text {
+    color: #FFF;
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 139.687%; /* 16.762px */
+letter-spacing: 0.12px;
+}
+.imran {
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    width: 100%;
+    height: max-content;
+    padding: 30px 0;
+    background: #0A0808;
+}
+
+.footer__wrapper {
+   
+} 
+.container {
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__box {
+}
+.footer__logo {
+}
+.footer__text {
+    color: #FFF;
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 139.687%; /* 16.762px */
+letter-spacing: 0.12px;
+}
+.footer__title {
+    color: #FFF;
+;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.imran {
+}
+.footer__img {
+}
+.abdu {
+    display: flex;
+    gap: 10px;
+}
+.footer__twise {
+    display: flex;
+
+margin: 20px 0;
+}
+.footer__input {
+    border-radius: 5px;
+border: 2px solid #D64374;
+opacity: 0.5;
+outline: none;
+background: transparent;
+width: 300px;
+height: 55px;
+color: #fff;
+padding-left: 20px;
+}
+
+.footer__text {
+    padding: 10px 0;
+}
+.footer__title {
+    padding: 5px 0;
+}
+.footer__btn {
+    height: 55px;
 }
