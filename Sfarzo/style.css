@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: max-content;
+    margin: 0 auto;
+    background-image: url(/assets/header-bg-fb442913.jpeg);
+
+
+
+}
+
+
+
+.header__wrap {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+body {
+    background-color: rgb(28, 27, 27);
+}
+
+.header__link {
+    color: #c9c9c9;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0%;
+    transition: color .3s;
+    text-decoration: none;
+
+}
+
+.aroma__logo {
+    width: 100%;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.sfarzo__text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
