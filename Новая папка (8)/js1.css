@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.logo {
+    width: 150px;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+    background-image: url(https://hdoboi.kiev.ua/images/26.Jun.2019-kosmicheskie-zvezdy-v-galaktike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.header__wraper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 25px;
+
+    @media (max-width: 800px) {
+        max-width: 100%;
+        width: 100%;
+        height: 100vh;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        transition: all 0.3s;
+
+        position: fixed;
+        top: -100%;
+        left: 0;
+
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.burger {
+    width: 50px;
+    display: none;
+    position: relative;
+    z-index: 3;
+
+    @media (max-width: 800px) {
+        display: block;
+    }
+}
+
+.open {
+    top: 0;
+}

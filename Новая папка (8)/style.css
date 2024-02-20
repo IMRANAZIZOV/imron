@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+
+    a {
+        background-color: mediumseagreen;
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
