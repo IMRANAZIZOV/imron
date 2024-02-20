@@ -1,225 +1,235 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
-    width: max-content;
-    margin: 0 auto;
+  width: max-content;
+  margin: 0 auto;
 }
 
-
-
 .header__wrap {
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 body {
-    background-color: rgb(28, 27, 27);
+  background-color: rgb(28, 27, 27);
 }
 
 .header__link {
-    color: #c9c9c9;
-    font-family: Jost;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: 0%;
-    transition: color .3s;
-    text-decoration: none;
-
+  color: #c9c9c9;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0%;
+  transition: color 0.3s;
+  text-decoration: none;
 }
 
 .aroma__logo {
-    width: 100%;
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-
+  width: 100%;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
 }
 
 .sfarzo__text {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    /* color: white; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* color: white; */
 
-    color: #fff;
-    font-size: 34px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 6%;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 6%;
 
-    margin-top: 250px;
+  margin-top: 250px;
 }
 
 .about__logo {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .box__text {
-    margin-top: 50px;
-    padding-left: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 20px;
-    justify-content: space-between;
-    color: #ffffffd9;
-    font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: 6%;
-
-
+  margin-top: 50px;
+  padding-left: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+  color: #ffffffd9;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 6%;
 }
 
 .box__title {
-    margin-top: 50px;
-    color: #c5a376;
-    ;
-    margin-top: 50px;
-    padding-left: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 20px;
-    justify-content: space-between;
+  margin-top: 50px;
+  color: #c5a376;
+  margin-top: 50px;
+  padding-left: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
 }
-
-
 
 .box__wrap {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.sfarzo__text {}
+.sfarzo__text {
+}
 
-
-.parfume__logo {}
+.parfume__logo {
+  width: 600px;
+}
 
 .parfume__title {
-    color: #fff;
+  color: #fff;
 
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.parfume__wrap {
-    display: flex;
-
-}
-
-.about__wrap {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin-top: 50px;
-
-
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .parfume__box {
-    display: flex;
-    justify-content: center;
+  align-items: center;
 }
 
-
-
-
-
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.byredo__wrap {
+  align-items: center;
+}
+.chanel__wrap {
+  align-items: center;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 15px;
+.memoirish__wrap {
+  align-items: center;
 }
 
-.logo {
-    width: 150px;
+.memoafrican__wrap {
+  align-items: center;
+}
+.parfume__wrap {
+  display: flex;
 }
 
-body {
-    background-color: rgb(24, 24, 24);
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
+.parfume__logo2 {
+  width: 400px;
+}
+.chanel__wrap {
+  display: flex;
 }
 
-.header__wraper {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    align-items: center;
+.about__wrap {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.parfume__box {
+  display: flex;
+  justify-content: center;
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.byredo__title {
+  color: #fff;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.byredo__wrap {
+  display: flex;
+}
+
+.memoirish__wrap {
+  display: flex;
+}
+
+.memoafrican__wrap {
+  display: flex;
 }
 
 .header__menu {
+  display: flex;
+  gap: 10px;
+}
+
+.header__wraper {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  gap: 25px;
+
+  @media (max-width: 800px) {
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
     display: flex;
-    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    @media (max-width: 800px) {
-        max-width: 100%;
-        width: 100%;
-        height: 100vh;
-        background-color: gray;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    transition: all 0.3s;
 
-        transition: all 0.3s;
+    position: fixed;
+    top: -100%;
+    left: 0;
 
-        position: fixed;
-        top: -100%;
-        left: 0;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
 
-        background: rgba(255, 255, 255, 0.3);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(4.5px);
-        -webkit-backdrop-filter: blur(4.5px);
-        border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
-
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-    }
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .burger {
-    width: 50px;
-    display: none;
-    position: relative;
-    z-index: 3;
+  width: 50px;
+  display: none;
+  position: relative;
+  z-index: 3;
 
-    @media (max-width: 800px) {
-        display: block;
-    }
+  @media (max-width: 800px) {
+    display: block;
+  }
 }
 
 .open {
-    top: 0;
+  top: 0;
 }
