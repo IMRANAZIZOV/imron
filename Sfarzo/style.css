@@ -7,7 +7,7 @@
 header {
     width: max-content;
     margin: 0 auto;
-    background-image: url(/assets/header-bg-fb442913.jpeg);
+
 
 
 
@@ -50,5 +50,77 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 30px
+    gap: 30px;
+    /* color: white; */
+
+    color: #fff;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 6%;
+
+    margin-top: 250px;
+}
+
+.about__logo {
+    margin-top: 100px;
+display: flex;
+justify-content: space-between;
+   
+}
+
+.box__text {
+    margin-top: 50px;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+justify-content: space-between;
+    color: #ffffffd9;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 6%;
+    
+   
+}
+
+.box__title {
+    margin-top: 50px;
+    color: #c5a376;;
+    margin-top: 50px;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+
+.box__wrap {
+
+}
+
+.sfarzo__text {
+  
+}
+
+
+.parfume__logo {
+    margin: 90px;
+    margin-bottom: 300000px;    
+    
+}
+
+.parfume__title {
+    color: #fff;
+    margin: 300px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parfume__wrap {
+display: flex;
+    
 }
